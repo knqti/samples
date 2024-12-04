@@ -15,7 +15,7 @@ My second pass focuses on clarity and consistency.
 
 ### First pass
 
-![first pass](/assets/images/bio-vita-starter_suggestions.png)
+![first pass]({{ site.baseurl }}/assets/images/bio-vita-starter_suggestions.png)
 
 Revisions:
 
@@ -26,7 +26,7 @@ Revisions:
 
 ### Second pass
 
-![pass](/assets/images/bio-vita-starter_revision.png)
+![pass]({{ site.baseurl }}/assets/images/bio-vita-starter_revision.png)
 
 Revisions:
 
@@ -37,7 +37,7 @@ Revisions:
 
 ## Table Graphics
 
-![graphics](/assets/images/bio-vita-starter_graphics.png)
+![graphics]({{ site.baseurl }}/assets/images/bio-vita-starter_graphics.png)
 
 Suggestions:
 
