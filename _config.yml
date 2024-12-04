@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/samples" # the subpath of your site, e.g. /blog
 url: "https://knqti.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  knqti
+github_username: knqti
 
 # Build settings
 theme: minima
