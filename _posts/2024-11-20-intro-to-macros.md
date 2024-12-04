@@ -5,31 +5,10 @@ date:   2024-11-20 09:00:00 -0800
 categories: tutorial
 ---
 
-## Table of Contents
+**Table of Contents**
 
-- [Introduction](#introduction)
-  - [Audience](#audience)
-  - [Prerequisites](#prerequisites)
-- [Setup](#setup)
-- [Record Macro](#record-macro)
-  - [Format texts](#format-texts)
-  - [Time sheet calculation](#time-sheet-calculation)
-- [Explore VBA](#explore-vba)
-  - [VBA Editor](#vba-editor)
-  - [Layout](#layout)
-  - [VBA code](#vba-code)
-    - [Line 1](#line-1)
-    - [Line 2](#line-2)
-    - [Lines 3-5](#lines-3-5)
-    - [Line 6](#line-6)
-    - [Line 7](#line-7)
-    - [Line 8](#line-8)
-    - [Line 9](#line-9)
-    - [Line 10](#line-10)
-    - [Line 11](#line-11)
-- [Conclusion](#conclusion)
-  - [Next steps](#next-steps)
-- [References](#references)
+* TOC
+{:toc}
 
 ## Introduction
 
