@@ -65,4 +65,4 @@ For more information on CBP requirements, [visit their website](https://www.cbp.
 
 To move goods from one country into another, an importer must go through the import procedure of sourcing, transportation, and customs clearance. 
 
-Importing is the first part of an international supply-chain business. To learn more about the supply-chain, [click here]().
+Importing is the first part of an international supply-chain business. To learn more about the supply-chain, click here (PENDING).

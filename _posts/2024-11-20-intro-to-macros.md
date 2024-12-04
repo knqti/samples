@@ -11,10 +11,10 @@ categories: tutorial
   - [Audience](#audience)
   - [Prerequisites](#prerequisites)
 - [Setup](#setup)
-- [Record a macro](#record-a-macro)
-  - [Formatting](#formatting)
-  - [Custom formulas](#custom-formulas)
-- [Explore a macro](#explore-a-macro)
+- [Record Macro](#record-macro)
+  - [Format texts](#format-texts)
+  - [Time sheet calculation](#time-sheet-calculation)
+- [Explore VBA](#explore-vba)
   - [VBA Editor](#vba-editor)
   - [Layout](#layout)
   - [VBA code](#vba-code)
@@ -63,13 +63,15 @@ This tutorial applies to:
 
 > Note: Screenshots and animations use Excel 2016.
 
+---
+
 ## Setup
 
 By default, Excel hides the Developer tab which provides access to macros. To unhide the Developer tab:
 
 1. In the Excel menu bar, click File. 
 
-   ![menu bar file](//assets/images/excel_menu_bar_file.png)
+   ![menu bar file](/assets/images/excel_menu_bar_file.png)
 
 2. Towards the bottom of the side panel menu, click Options.
 
@@ -83,11 +85,13 @@ The Developer tab is now visible in your Excel menu bar.
 
 ![developer tab](/assets/images/excel_menu_bar_developer_tab.png)
 
-## Record a macro
+---
+
+## Record Macro
 
 The Record Macro tool is the simplest way to create macros. Excel will record and save your instructions into a macro. You can then run ("play back") the recorded macro as many times as needed.
 
-### Formatting
+### Format texts
 
 Let's begin with a formatting macro:
 
@@ -124,20 +128,18 @@ Let's begin with a formatting macro:
 
 Congrats! You just recorded and played back your first macro.
 
-### Custom formulas
-
-A common macro application might involve custom formulas.
+### Time sheet calculation
 
 The following example is a time sheet with employee clock in/clock out times:
 
 ![time sheet](/assets/images/excel_timesheet.png)
 
-You would normally calculate hours worked:
+You would normally calculate hours worked with a custom formula:
 
 1. `=(C2*24)-(B2*24)` in cell D2.
 2. Format the result as Number.
 
-Instead, record a macro with a shortcut:
+Instead, you can record a macro with a shortcut key:
 
 1. In the Developer tab, click Use Relative References, and then Record Macro.
 
@@ -159,11 +161,13 @@ You can play back your macro in any selected cell by pressing your custom shortc
 
 ![run custom formula](/assets/gifs/run_custom_formula.gif)
 
-## Explore a macro
+---
+
+## Explore VBA
 
 The last step is to explore a macro's VBA code. This exploration is meant as an overview - the explanations use generic words and avoid programming terminology.
 
-The following example uses the recorded macro from [Custom formulas](#custom-formulas).
+The following example uses the recorded macro from [Time sheet calculation](#time-sheet-calculation).
 
 ### VBA Editor
 
@@ -229,7 +233,7 @@ Broken down:
 
 - `ActiveCell`: The selected cell in the spreadsheet.
 - `.FormulaR1C1`: Enter a formula using relative references.
-- ` = `: To the right is the formula.
+- `=`: To the right is the formula.
 - `"=(RC[-1]*24)-(RC[-2]*24)"`: Multiply one cell to the left of `ActiveCell` by 24. Multiply two cells to the left of `ActiveCell` by 24. Subtract the second result from the first result.
 
 #### Line 9
@@ -253,21 +257,25 @@ Broken down:
 
 - `Selection`: The selected cell.
 - `.NumberFormat`: Enter a value in a specific format.
-- ` = `: To the right is the format.
+- `=`: To the right is the format.
 - `"0.00"`: Number format.
 
 #### Line 11
 
 The `End Sub` statement tells VBA this is the end.
 
+---
+
 ## Conclusion
 
-This introductory tutorial is a launching point into the world of Excel macros. You can now record your own macros and automate repetitive Excel tasks!
+This introductory tutorial is a launching point into the world of Excel macros. You can now record your own macros and automate repetitive tasks!
 
 ### Next steps
 
 - To explore VBA further, watch [this video tutorial](https://www.youtube.com/watch?v=IJQHMFLXk_c).
 - To review official documentation, see [Microsoft's article](https://learn.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office).
+
+---
 
 ## References
 

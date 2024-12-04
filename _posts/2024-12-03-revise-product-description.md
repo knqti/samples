@@ -5,13 +5,13 @@ date:   2024-12-03 10:47:00 -0800
 categories: product revision
 ---
 
-In this sample, I revised the [BioVita Starter](https://bio-oregon.com/wp-content/uploads/2023/10/Biovita-Starter.pdf) brochure text. I also suggest improvements for the table graphics.
+In this sample, I revise Bio-Oregon's [BioVita Starter](https://bio-oregon.com/wp-content/uploads/2023/10/Biovita-Starter.pdf) brochure. I also suggest improvements for the table graphics.
 
 ## Brochure Text
 
-My first pass focused on simple mistakes: spelling, grammar, etc. I used this chance to also understand the product and what the company is trying to convey.
+My first pass focuses on simple mistakes: spelling, grammar, etc. I use this chance to understand the product and its message.
 
-My second pass focused on clarity and consistency.
+My second pass focuses on clarity and consistency.
 
 ### First pass
 
@@ -30,9 +30,9 @@ Revisions:
 
 Revisions:
 
-- First paragraph is clear and descriptive
-- Bullet points focus on key features
-- Bullet points in parallel structure
+- Clear and concise descriptions
+- Key features bullet points
+- Parallel-structured bullet points
 - Overall consistency
 
 ## Table Graphics
