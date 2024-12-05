@@ -21,7 +21,7 @@
 title: Technical Writing Samples
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A compilation of tutorials, how-to guides, and rewrite samples.
+  Tutorials, how-to guides, and rewrite samples.
 baseurl: "/samples" # the subpath of your site, e.g. /blog
 url: "https://knqti.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
